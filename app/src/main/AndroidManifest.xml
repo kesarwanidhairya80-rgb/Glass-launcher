@@ -2,11 +2,11 @@
     <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
     <application android:label="Glass Launcher" android:theme="@style/Theme.Glass">
         <activity android:name=".MainActivity" android:exported="true"
-            android:launchMode="singleTask" android:stateNotNeeded="true"
-            android:excludeFromRecents="true">
+            android:launchMode="singleTask" android:stateNotNeeded="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.HOME"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
